@@ -1,0 +1,39 @@
+# WebCode IDE
+
+> WebCode is an instant, client-side web IDE and multi-language execution engine running 100% in the browser via WebAssembly (WASM), Web Workers, and sandboxed iframes. Zero installation, zero cloud compute, private and offline-capable.
+
+## Core Compilers & Runtimes
+
+- [Python Online Compiler](https://webcode.xicae.dev/python-online-compiler/): Python 3.12 via Pyodide with micropip package support (NumPy, Pandas, Matplotlib, SciPy, Scikit-Learn).
+- [JavaScript Online Compiler](https://webcode.xicae.dev/javascript-online-compiler/): Isolated Web Worker execution with dynamic ESM CDN package loading.
+- [TypeScript Online Compiler](https://webcode.xicae.dev/typescript-online-compiler/): TypeScript runtime with instant client-side transpilation and type-checking.
+- [SQLite Online Compiler](https://webcode.xicae.dev/sqlite-online-compiler/): Full SQLite 3 in WebAssembly with Northwind and Chinook sample databases.
+- [C++ Online Compiler](https://webcode.xicae.dev/cpp-online-compiler/): C++ WebAssembly runtime with standard I/O streaming.
+- [HTML5/CSS3/JS Live Editor](https://webcode.xicae.dev/html-css-js-editor/): Sandboxed real-time live preview with DOM rendering.
+- [Lua Online Compiler](https://webcode.xicae.dev/lua-online-compiler/): Lua 5.4 in-browser VM.
+- [Ruby Online Compiler](https://webcode.xicae.dev/ruby-online-compiler/): Ruby 3.3 WebAssembly engine.
+- [Bash / Shell Online](https://webcode.xicae.dev/bash-shell-online/): Unix shell emulation in the browser.
+- [JSON Formatter & Validator](https://webcode.xicae.dev/json-formatter-validator/): Fast deterministic JSON beautifier and validator.
+- [Markdown Live Editor](https://webcode.xicae.dev/markdown-live-editor/): Real-time CommonMark editor with GitHub Flavored Markdown preview.
+
+## Popular Library Sandboxes
+
+- [Python NumPy Sandbox](https://webcode.xicae.dev/python-online-compiler/numpy/): In-browser array calculations and linear algebra.
+- [Python Pandas Sandbox](https://webcode.xicae.dev/python-online-compiler/pandas/): In-browser DataFrame analytics with zero upload.
+- [Python Matplotlib Sandbox](https://webcode.xicae.dev/python-online-compiler/matplotlib/): Client-side chart and plot generation.
+- [JavaScript Axios Sandbox](https://webcode.xicae.dev/javascript-online-compiler/axios/): Test HTTP requests directly in the browser sandbox.
+- [SQLite Northwind Dataset](https://webcode.xicae.dev/sqlite-online-compiler/northwind/): Preloaded relational schema with orders, customers, and products.
+
+## Algorithm Reference & Implementations
+
+- [Binary Search](https://webcode.xicae.dev/python-online-compiler/algorithms/binary-search/): O(log n) search algorithm in Python.
+- [Quick Sort](https://webcode.xicae.dev/python-online-compiler/algorithms/quick-sort/): Divide-and-conquer sorting in Python.
+- [Merge Sort](https://webcode.xicae.dev/python-online-compiler/algorithms/merge-sort/): Stable O(n log n) sorting algorithm.
+- [Dijkstra Shortest Path](https://webcode.xicae.dev/python-online-compiler/algorithms/dijkstra/): Graph shortest path algorithm.
+- [Kadane's Algorithm](https://webcode.xicae.dev/python/algorithms/kadane-algorithm/): Maximum subarray sum in O(n) time.
+
+## Developer Suite & Integration
+
+- [WebCode IDE Workspace](https://webcode.xicae.dev/editor/): Full IDE with file explorer, multi-tab editing, and OPFS storage.
+- [Projects Dashboard](https://webcode.xicae.dev/projects/): Local workspace projects manager.
+- [Xicae MCP & API Gateway](https://api.xicae.dev/docs): Deterministic code execution recipes, AST parsing, and MCP tools for AI agents.
