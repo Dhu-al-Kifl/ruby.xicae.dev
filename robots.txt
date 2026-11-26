@@ -35,5 +35,6 @@ User-agent: Diffbot
 Allow: /
 
 # Discovery Manifests
-Host: https://webcode.xicae.dev
-Sitemap: https://webcode.xicae.dev/sitemap.xml
+Host: https://ruby.xicae.dev
+
+Sitemap: https://ruby.xicae.dev/sitemap.xml
