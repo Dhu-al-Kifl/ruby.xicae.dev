@@ -1,9 +1,13 @@
 <!DOCTYPE html><html lang="en" data-astro-cid-ibpinaeu><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="robots" content="noindex, nofollow"><meta name="color-scheme" content="dark"><title>404 — Page Not Found</title><script>
     (function () {
       var ua = navigator.userAgent || '';
-      var isBot = navigator.webdriver || /bot|crawl|spider|slurp|googlebot|bingbot|yandex|duckduckbot|baiduspider|gptbot|chatgpt|claudebot|perplexity|applebot|facebookexternalhit|twitterbot|linkedinbot|headlesschrome/i.test(ua);
+      var isBot = /bot|crawl|spider|slurp|googlebot|bingbot|yandex|duckduckbot|baiduspider|gptbot|chatgpt|claudebot|perplexity|applebot|facebookexternalhit|twitterbot|linkedinbot/i.test(ua);
       if (!isBot) {
-        window.location.replace('/');
+        try {
+          window.location.replace('/');
+        } catch (e) {
+          window.location.href = '/';
+        }
       }
     })();
   </script><style>[data-astro-cid-ibpinaeu],[data-astro-cid-ibpinaeu]:before,[data-astro-cid-ibpinaeu]:after{box-sizing:border-box}html,body{color:#e4e4e7;text-align:center;background:#000;place-items:center;min-height:100%;margin:0;padding:24px;font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;display:grid}.wrap[data-astro-cid-ibpinaeu]{max-width:360px}h1[data-astro-cid-ibpinaeu]{color:#fff;margin:0 0 8px;font-size:1.125rem;font-weight:600}p[data-astro-cid-ibpinaeu]{color:#a1a1aa;margin:0 0 20px;font-size:.875rem}a[data-astro-cid-ibpinaeu]{color:#fff;background:#ffffff0f;border:1px solid #ffffff29;border-radius:9999px;justify-content:center;align-items:center;min-height:44px;padding:0 20px;font-size:.875rem;font-weight:500;text-decoration:none;display:inline-flex}
